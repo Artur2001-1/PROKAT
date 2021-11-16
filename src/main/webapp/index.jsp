@@ -20,19 +20,16 @@
       <div class="cols">
         <div class="row">
           <div class="col-lg-4">
-            <img class="img-rounded" src="/resources/img/jdbc.png" alt="jdbc logo" width="140" height="140">
-            <p>Java Database Connectivity (JDBC) is an application programming interface (API) for the programming language Java, that defines how a client may access a database.</p>
-            <p><a class="btn btn-primary" href="/jdbc" role="button">View JDBC &raquo;</a></p>
+            <img class="img-rounded" src="/resources/img/hiber.png" alt="hibernate logo" width="140" height="140">
+            <p><a class="btn btn-primary" href="/hibernate" role="button">Посмотреть клиентов</a></p>
           </div>
           <div class="col-lg-4">
             <img class="img-rounded" src="/resources/img/hiber.png" alt="hibernate logo" width="140" height="140">
-            <p>Hibernate ORM is framework for the Java language. It provides a framework for mapping an object-oriented domain model to a relational database.</p>
-            <p><a class="btn btn-primary" href="/hibernate" role="button">View Hibernate&raquo;</a></p>
+            <p><a class="btn btn-primary" href="/hibernate" role="button">Посмотреть автомобили</a></p>
           </div>
           <div class="col-lg-4">
-            <img class="img-rounded" src="/resources/img/jpa.png" alt="hibernate logo" width="140" height="140">
-            <p>The Java Persistence API (JPA) is a Java API specification that describes the management of relational data in applications using Java SE and Java EE.</p>
-            <p><a class="btn btn-primary" href="/jpa" role="button">View JPA &raquo;</a></p>
+            <img class="img-rounded" src="/resources/img/hiber.png" alt="hibernate logo" width="140" height="140">
+            <p><a class="btn btn-primary" href="/hibernate" role="button">Посмотреть машины в аренде</a></p>
           </div>
         </div>
       </div>
