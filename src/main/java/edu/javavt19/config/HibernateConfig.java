@@ -2,8 +2,10 @@ package edu.javavt19.config;
 
 import edu.javavt19.dao.CarBrandDAO;
 import edu.javavt19.dao.CarModelDAO;
+import edu.javavt19.dao.CarClassDAO;
 import edu.javavt19.dao.hibernate.CarBrandDAOHibernateImpl;
 import edu.javavt19.dao.hibernate.CarModelDAOHibernateImpl;
+import edu.javavt19.dao.hibernate.CarClassDAOHibernateImpl;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -48,5 +50,9 @@ public class HibernateConfig {
     @Bean
     public CarModelDAO getCarModelHibernateDAO() {
         return new CarModelDAOHibernateImpl();
+    }
+    @Bean
+    public CarClassDAO getCarClassHibernateDAO() {
+        return new CarClassDAOHibernateImpl();
     }
 }
